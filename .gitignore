@@ -15,7 +15,7 @@ public class Unicode8 {
 		System.out.println("\u2764 ");
 
 		System.out.println("\ud83d\ude01");
-    
-    System.out.println("\u212c");
+		
+		System.out.println("\u212c");
 	}
 }
