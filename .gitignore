@@ -1,23 +1,21 @@
-# Compiled class file
-*.class
+Вивести на консоль смайли та емоджі. Подумайте, як ви це можете зробити. Реалізуйте. Викладіть код у гітхаб, зробити докладний опис як це працює.
 
-# Log file
-*.log
+В програмі екліпс натискаємо по "вкладках" які подано далі -- window/preferences/general/workspace/text file encoding. У вкладці "other" змінюємо Cp1251 на UTF-8 і натискаємо apply.
 
-# BlueJ files
-*.ctxt
+На сайті unicode-table.com я знайшов потрібний мені смайл. Потім за допомогою "ЮНИКОД-КОДИРОВЩИКА" (https://unicode-table.com/ru/tools/decoder/) я конвертував потрібні мені емоджі в юникод.
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+(ПРИКЛАД КОДУ З СМАЙЛАМИ ❤,😁 та буквою ℬ)
+
+package namer;
+public class Unicode8 {
+	public static void main(String[] args) {
+  
+		System.out.println("\u2764 ");
+
+		System.out.println("\ud83d\ude01");
+    
+    System.out.println("\u212c");
+	}
+}
